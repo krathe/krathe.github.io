@@ -11,12 +11,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://krathe.github.io/mediaserver/</loc>
+         <loc>https://krathe.github.io/raspberry/</loc>
          <lastmod>2024-01-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://krathe.github.io/raspberry/</loc>
+         <loc>https://krathe.github.io/media-server/backup/</loc>
+         <lastmod>2024-01-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://krathe.github.io/media-server/mediaserver/</loc>
          <lastmod>2024-01-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
