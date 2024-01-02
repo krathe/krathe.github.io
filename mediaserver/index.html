@@ -610,7 +610,7 @@ I use a VPN to avoid exposing my public IP on Internet, I use <a href="https://w
 I use it trough a <a href="https://hub.docker.com/r/linuxserver/jellyfin">Docker container</a> made by <a href="https://www.linuxserver.io/">LinuxServer.io</a>.</p>
 <h2 id="backup">Backup</h2>
 <p>I backup my data every day (exept the ISO files because is too large).<br />
-To made the backup I use 2 basic bash scripts.</p>
+To backup my data, The 2 followings scripts are launched trough a Crontab every night.</p>
 <h3 id="backupsh">backup.sh</h3>
 <p>This script create a <strong>tar</strong> archive of important data of different applications.</p>
 <div class="language-bash copy highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">backup.sh</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
@@ -809,7 +809,6 @@ To made the backup I use 2 basic bash scripts.</p>
 </span><span id="__span-1-52"><a id="__codelineno-1-52" name="__codelineno-1-52"></a>
 </span><span id="__span-1-53"><a id="__codelineno-1-53" name="__codelineno-1-53"></a>log<span class="w"> </span><span class="s2">&quot;---- Fin du script ----&quot;</span>
 </span></code></pre></div></td></tr></table></div>
-<p>These 2 scripts are launched every night trough a Crontab.</p>
 
 
 
